@@ -3,7 +3,7 @@
 
 A tiny autograd engine in plain Python, with a small neural-network library on top. Every number is a `Value` that remembers how it was computed, so calling `.backward()` on the final result fills in the gradient of everything that fed into it. It's the same idea as PyTorch's autograd, just for single numbers instead of tensors.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vivekpandey0706/micrograd-from-scratch/blob/main/Micrograd_Autograd_Engine.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vivekpandey0706/micrograd-from-scratch/blob/main/Gradient_Engine.ipynb)
 
 ## What's in it
 
